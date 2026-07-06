@@ -52,7 +52,7 @@ shadowscan/
 ├── examples/
 │   └── vulnerable-api-demo/  # intentionally flawed test API used for demos
 ├── README.md
-└── requirements.txt
+└── pyproject.toml
 ```
 
 <!-- TODO: replace with an actual diagram image once modules are built -->
