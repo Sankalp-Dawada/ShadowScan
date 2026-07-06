@@ -27,10 +27,10 @@ before an attacker does.
 - ❌ No authentication bypass
 - ❌ No active attacks against targets you don't own or have permission to test
 
-## Demo
+<!--## Demo-->
 
 <!-- TODO: record asciinema/GIF once CLI + vulnerable test API are working (Week 3-4) -->
-`[demo GIF / asciinema link goes here]`
+<!--`[demo GIF / asciinema link goes here]`-->
 
 ## Architecture
 
@@ -61,11 +61,11 @@ shadowscan/
 
 <!-- TODO: fill in once cli.py exists (Week 3) -->
 ```bash
-git clone https://github.com/<you>/shadowscan.git
+git clone https://github.com/Sankalp-Dawada/ShadowScan.git
 cd shadowscan
 pip install -r requirements.txt
 
-shadowscan scan --spec openapi.json --url https://target.com --output report.md
+shadowscan scan --spec openapi.json --url https://targetexample.com --output reportexample.md
 ```
 
 ## Design Decisions
