@@ -63,7 +63,7 @@ shadowscan/
 ```bash
 git clone https://github.com/Sankalp-Dawada/ShadowScan.git
 cd shadowscan
-pip install -r requirements.txt
+pip install shadowscan
 
 shadowscan scan --spec openapi.json --url https://targetexample.com --output reportexample.md
 ```
